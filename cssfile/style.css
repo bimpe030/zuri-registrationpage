@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Roboto Serif', serif;
-    background: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url("../images/Backgroundtwo.jpg");
+    background: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url("../images/banner.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
