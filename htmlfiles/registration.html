@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../cssfile/style.css">
+</head>
+<body>
+    <div class="registration-container">
+        <h3>Please fill in your details.</h3>
+
+        <div class="container">
+            <div class="top">
+                <div>
+                    <h1>Welcome</h1>
+                    <h4>Please fill in your data to gain full access</h4>
+                </div>
+            </div>
+            <form action="../htmlfiles/success.html">    
+                <div class="flexbox">
+                    <div>
+                        <label>First Name:</label><br />
+                        <input type="text" name="First name" placeholder="John" required/>
+                    </div>
+    
+                    <div>
+                        <label>Last Name:</label> <br/>
+                        <input type="text" name="Last name" placeholder="Doe" required/>
+                    </div>
+                </div>
+    
+                <div class="setting-two">
+                    <div>
+                        <label>Email:</label>
+                        <input type="Email" name="phone number" placeholder="aaa@exapmle.com" required />
+                    </div> 
+    
+                    <div>
+                        <label>Phone Number:</label>
+                        <br/>
+                        <input type="number" name="name" placeholder="08088888888" maxlength="11"/>
+                    </div>    
+                    
+                </div>
+                
+                <div class="flexbox">
+                    <div>
+                        <label>Date of Birth:</label><br/>
+                        <input type="date" name="date" placeholder="Date of Birth"/>
+                    </div>             
+                    <div>
+                        <label>Gender</label><br/>
+                        <select name="Gender" aria-placeholder="Gender" class="length">
+                          <option value="Gender" selected></option>
+                          <option value="Male">Male</option>
+                          <option value="Female">Female</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Favourite color:</label>
+                        <br/>
+                        <input type="color" name="color" placeholder="Favorite color" class="space" />
+    
+                    </div>
+                </div>
+                
+                
+                
+                
+                <div class="setting">
+                    
+                    <div>
+                        <h4>
+                            Please enter your password
+                        </h4>
+                        <div class="flexbox setting-flexbox">
+                            
+                            <div>
+                                <input type="password" name="name" placeholder="Password"/>
+                            </div>
+                            
+                            <div>
+                                <input
+                                type="password"
+                                name="name"
+                                placeholder="Confirm Password"
+                                />
+                            </div>
+                        </div>
+                    </div>   
+    
+                </div>
+    
+                <input
+                  type="checkbox"
+                  name="select"
+                  value="agree"
+                  required
+                  class="aside"
+                />I accept the Terms of Use and Privacy Policy<br />
+    
+                <button type="submit">Register</a></button>
+    
+                <h3>Already have an account <span><a href="../index.html">Sign In</a></span></h3>
+            
+            </form>
+        </div>
+
+
+        <!-- <form>
+          <fieldset class="field">
+            <legend>Your Details</legend>
+
+            
+            <input
+              type="text"
+              name="First name"
+              placeholder="First Name" required
+            />
+
+            <input type="text" name="Last name" placeholder="Last Name" required/><br/>
+            <input
+              type="number"
+              name="name"
+              placeholder="Phone Number"
+              maxlength="11"
+              class="space"
+            />
+
+            <input type="Email" name="phone number" placeholder="Email" required /><br/>
+            <select name="Gender" aria-placeholder="Gender" class="length space">
+              <option value="Gender" selected>Gender</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+            </select>
+
+            <input type="date" name="date" placeholder="Date of Birth" class="space"/>
+            <input type="color" name="color" placeholder="Favorite color" class="space" /><br/>
+            <input type="password" name="name" placeholder="Password" class="space"/><br/>
+            <input
+              type="password"
+              name="name"
+              placeholder="Confirm Password"
+              class="space"
+            /><br />
+            <input
+              type="checkbox"
+              name="select"
+              value="agree"
+              required
+              class="aside"
+            />I accept the Terms of Use and Privacy Policy<br />
+
+            <button type="submit">Register</button>
+
+            <h3>Already have an account <span><a href="../index.html">Sign In</a></span></h3>
+          </fieldset>
+        </form> -->
+
+
+      </div>
+</body>
+</html>

@@ -1,9 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title></title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./cssfile/login.css">
 </head>
 <body>
-<h1>h1body</h1>
+        <div class="sign-container">
+            <div class="sign placement">
+                <div>
+                    <h1>Welcome Page</h1>
+                  <h3>Sign in to continue Access</h3>
+                </div>
+            </div>
+            <div class="sign placement-over">
+                <form>
+                    <h2>Sign In</h2>
+                    <div>
+                        <input type="email" name="Email" required placeholder="Email Address">
+                    </div>
+
+                    <div>
+                        <input type="password" name="password" required placeholder="Password" class="pass">
+                    </div>
+
+                    <button type="submit">Sign In</button>
+
+                    <p>or Connect with Social Media</p>
+
+                    <button class="twitter"><a><i class="fa-brands fa-twitter">&nbsp;&nbsp; &nbsp;</i>Sign in with Twitter</a></button><br>
+                    <button class="face"><a><i class="fa-brands fa-facebook-f">&nbsp; &nbsp; &nbsp;</i>Sign in with Facebook</a></button>
+
+                    <h4>Don't have an account <span><a href="./htmlfiles/registration.html">Sign Up</a></span></h4>
+                </form>
+            </div>
+        </div>
 </body>
 </html>
